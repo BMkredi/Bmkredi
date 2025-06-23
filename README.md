@@ -1,16 +1,96 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Byggnadskreditivkontroll</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1a237e;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .etapp {
+      background: white;
+      margin: 1rem auto;
+      padding: 1rem;
+      border-radius: 10px;
+      max-width: 700px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .etapp h2 {
+      color: #1a237e;
+    }
+    .qr {
+      margin-top: 1rem;
+    }
+    .footer {
+      text-align: center;
+      margin: 2rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kontrollsystem för Byggnadskreditiv</h1>
+    <p>Scanna QR-koderna för att se dokumentation för varje etapp</p>
+  </header>
+
+  <section class="etapp">
+    <h2>Etapp 1: Mark- och grundarbeten</h2>
+    <p>Länkar till dokumentation, bilder och protokoll.</p>
+    <div class="qr">
+      <img src="etapp_1_qr.png" alt="QR Etapp 1" width="150" />
+    </div>
+  </section>
+
+  <section class="etapp">
+    <h2>Etapp 2: Stomme</h2>
+    <p>Länkar till dokumentation, bilder och protokoll.</p>
+    <div class="qr">
+      <img src="etapp_2_qr.png" alt="QR Etapp 2" width="150" />
+    </div>
+  </section>
+
+  <section class="etapp">
+    <h2>Etapp 3: Tät byggnad</h2>
+    <p>Länkar till dokumentation, bilder och protokoll.</p>
+    <div class="qr">
+      <img src="etapp_3_qr.png" alt="QR Etapp 3" width="150" />
+    </div>
+  </section>
+
+  <section class="etapp">
+    <h2>Etapp 4: Installationer</h2>
+    <p>Länkar till dokumentation, bilder och protokoll.</p>
+    <div class="qr">
+      <img src="etapp_4_qr.png" alt="QR Etapp 4" width="150" />
+    </div>
+  </section>
+
+  <section class="etapp">
+    <h2>Etapp 5: Slutbesiktning</h2>
+    <p>Länkar till dokumentation, bilder och protokoll.</p>
+    <div class="qr">
+      <img src="etapp_5_qr.png" alt="QR Etapp 5" width="150" />
+    </div>
+  </section>
+
+  <div class="footer">
+    <p>Byggsystemet utvecklat för besiktningskontroll & bankutbetalningar</p>
+  </div>
+</body>
+</html># Hi there 👋
 
 <!--
 **BMkredi/Bmkredi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
